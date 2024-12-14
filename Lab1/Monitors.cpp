@@ -46,7 +46,6 @@ int main() {
     std::thread cons(consumer);
 
     prod.join();
-    cons.join();
 
     return 0;
 }
